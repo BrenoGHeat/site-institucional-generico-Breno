@@ -26,16 +26,15 @@
 }
 
 .section-banner{
-  width: 100%;
+  width:100%;
   height:780px;
   background-color: var(--color-gray-2);
 }
 
 .container-banner{
-  width: 1730px;
   height: 250px;
   display: flex;
-  padding-top: 250px;
+  padding: 250px;
   align-items: center;
   flex-direction: column;
   gap: 44px;
@@ -55,6 +54,7 @@
 }
 
 .paragraph-banner{
+  width: 770px;
   color: var(--color-gray-4);
   font-weight: 400;
   font-size: 20px;
@@ -65,8 +65,7 @@
 
 
 .button-banner{
-  width: 142px;
-  height: 60px;
+  width: 150px;
   background-color: var(--color-blue-1);
   color: var(--color-gray-7);
   border: 1px transparent;
@@ -78,9 +77,11 @@
 
 .section-about{
   width: 100%;
+  height: 285px;
   background-color: var(--color-gray-1);
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .title-about{
@@ -93,16 +94,20 @@
 
 .paragraph-about{
   font-family: "Inter";
+  width: 580px;
+  height: 120px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 30px;
   color:var(--color-gray-5);
 }
 
 .div-about{
+  padding: 82px;
   display: flex;
+  gap: 56px;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -115,12 +120,12 @@
 }
 
 .container-left{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   width: 620px;
   height: 280px;
   gap:33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-family: "Inter";
 }
 
