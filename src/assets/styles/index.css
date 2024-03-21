@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./globalStyles.css";
 
-header{
+.header-div{
   display: flex;
   padding: 1.25rem 14.75rem;
   justify-content: space-between;
@@ -17,10 +17,17 @@ header{
     align-items: center;
     gap: 0.625rem;
     border: 1px solid var(--color-gray-7);
+    background-color: var(--color-gray-1);
+    color: var(--color-gray-7);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+  
 }
 
 .section-banner{
   width: 100%;
+  height:780px;
   background-color: var(--color-gray-2);
 }
 
@@ -28,7 +35,7 @@ header{
   width: 1730px;
   height: 250px;
   display: flex;
-  padding: 250px, 236px, 250px, 236px;
+  padding-top: 250px;
   align-items: center;
   flex-direction: column;
   gap: 44px;
@@ -39,17 +46,21 @@ header{
   font-size: 52px;
   line-height: 140%;
   color:var(--color-gray-6);
+  font-family: "Inter";
 }
 
 .span-banner{
   color: var(--color-blue-2);
+  font-family: "Inter";
 }
 
 .paragraph-banner{
   color: var(--color-gray-4);
   font-weight: 400;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Inter";
 }
 
 
@@ -62,6 +73,7 @@ header{
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
+  font-family: "Inter";
 }
 
 .section-about{
@@ -72,6 +84,7 @@ header{
 }
 
 .title-about{
+  font-family: "Inter";
   font-weight: 600;
   font-size: 40px;
   line-height: 160%;
@@ -79,6 +92,7 @@ header{
 }
 
 .paragraph-about{
+  font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
@@ -90,6 +104,167 @@ header{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.faq-section{
+  background-color: var(--color-gray-2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container-left{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 620px;
+  height: 280px;
+  gap:33px;
+  font-family: "Inter";
+}
+
+.title-left{
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  color: var(--color-gray-6);
+}
+
+.paragraph-left{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-gray-4);
+}
+
+.button-left{
+  width: 266px;
+  height: 60px;
+  border: 1px solid var(--color-blue-1);
+  background-color: var(--color-blue-1);
+  color: var(--color-gray-7);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: "Inter";
+  align-items: center;
+}
+
+
+.title-right{
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 160%;
+  color:var(--color-gray-6);
+}
+
+.paragraph-right{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-gray-4);
+}
+
+.container-right{
+  max-width: 583px;
+  height: 968px;
+  gap:60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-comments{
+  font-family: "Inter";
+  width:100%;
+  height: 1387px;
+  background-color: var(--color-gray-2);
+}
+
+.title-paragraph-left{
+  width: 192px;
+  height: 86px;
+  gap: 8px;
+  font-family: "Inter";
+}¨
+
+.ul .comment-left-side{
+  font-family: "Inter";
+  width:620px;
+  height: 1220px;
+  gap:82px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.li-left{
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+  width: 620px;
+  height: 179px;
+  gap:16px;
+}
+
+.title-comment-left{
+  font-weight: 600px;
+  font-size: 32px;
+  line-height: 160%;
+  color: var(--color-gray-6);
+
+}
+
+.paragraph-comment-left{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-gray-4);
+}
+
+.paragraph-comment{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-gray-5);
+  
+
+}
+
+.container-right-side{
+   font-family: "Inter";
+   width: 580px;
+   height: 443px;
+   gap:35px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.comment-right-side{
+  width: 493px;
+  height: 443px;
+  background-color: var(--color-blue-1);
+}
+
+.title-right-side{
+  font-weight: 600;
+  font-size:40px;
+  line-height: 160%;
+  color: var(--color-gray-7);
+}
+
+.paragraph-right-side{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-gray-7);
 }
 
 footer{
