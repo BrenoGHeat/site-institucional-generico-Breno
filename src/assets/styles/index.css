@@ -255,19 +255,23 @@
 }
 
 .container-right-side{
-   font-family: "Inter";
-   width: 580px;
-   height: 443px;
-   gap:35px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
+  font-family: "Inter";
+    width: 580px;
+    height: 443px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .comment-right-side{
   width: 493px;
+  display: flex;
   height: 443px;
   background-color: var(--color-blue-1);
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .title-right-side{
