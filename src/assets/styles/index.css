@@ -80,9 +80,8 @@
   width: 100%;
   height: 285px;
   background-color: var(--color-gray-1);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+
 }
 
 .title-about{
@@ -105,36 +104,34 @@
 }
 
 .div-about{
-  padding: 82px;
+  padding:80px;
   display: flex;
-  gap: 56px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 1256px;
 }
 
 
 .div-side-section{
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  max-width: 1256px;
+  justify-content: space-between;
+  padding: 80px;
+  gap:56px;
 }
 
 
 .faq-section{
   background-color: var(--color-gray-2);
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
 }
 
 .container-left{
   width: 620px;
+  margin: 15px;
   height: 280px;
-  gap:33px;
+  gap: 33px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -189,9 +186,9 @@
 
 .container-right{
   justify-content: center;
-  max-width: 583px;
+  width: 583px;
   height: 968px;
-  gap:60px;
+  gap: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -203,6 +200,15 @@
   background-color: var(--color-gray-2);
 }
 
+.div-comments{
+  max-width: 1256px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
 .title-paragraph-left{
   width: 192px;
   height: 86px;
@@ -210,7 +216,7 @@
   font-family: "Inter";
 }¨
 
-.ul .comment-left-side{
+.comment-left-side{
   font-family: "Inter";
   max-width:620px;
   height: 1220px;
@@ -223,11 +229,10 @@
 
 .li-left{
   font-family: "Inter";
-  display: flex;
-  align-items: center;
-  width: 620px;
-  height: 179px;
-  gap:16px;
+    display: flex;
+    width: 620px;
+    height: 179px;
+    gap: 16px;
 }
 
 .title-comment-left{
@@ -256,22 +261,20 @@
 
 .container-right-side{
   font-family: "Inter";
-    width: 580px;
-    height: 443px;
-    gap: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  width: 580px;
+  height: 443px;
 }
 
 .comment-right-side{
   width: 493px;
   display: flex;
+  padding: 20px;
   height: 443px;
   background-color: var(--color-blue-1);
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 35px;
+  align-content: center;
+  justify-content: center;
 }
 
 .title-right-side{
@@ -285,7 +288,7 @@
   font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 30px;
   color: var(--color-gray-7);
 }
 
