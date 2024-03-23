@@ -1,9 +1,16 @@
 @import "./reset.css";
 @import "./globalStyles.css";
 
+
+
+header{
+  position:fixed;
+  width:100%;
+}
+
 .header-div{
   display: flex;
-  padding: 1.25rem 14.75rem;
+  padding: 20px 236px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid var(--color-blue-1);
@@ -11,11 +18,11 @@
 }
 
 .header-button{
-    height: 3.75rem;
-    padding: 1.25rem 2rem;
+    height: 60px;
+    padding: 20px 32px;
     justify-content: center;
     align-items: center;
-    gap: 0.625rem;
+    gap: 10px;
     border: 1px solid var(--color-gray-7);
     background-color: var(--color-gray-1);
     color: var(--color-gray-7);
@@ -129,6 +136,13 @@
   width: 100%;
 }
 
+
+.aside-left-side{
+  display: flex;
+  position: sticky;
+  top: 10rem;
+}
+
 .container-left{
   width: 620px;
   margin: 15px;
@@ -208,38 +222,35 @@
   flex-wrap: nowrap;
   justify-content: center;
   flex-direction: row-reverse;
-
+  margin: 0 auto;
 }
 
 .title-paragraph-left{
-  width: 192px;
+  min-width: 192px;
   display: flex;
   height: 86px;
   gap: 8px;
   font-family: "Inter";
+  align-items: center;
   flex-direction: column;
-}¨
+}
 
 .comment-left-side{
-  max-width:40%;
-  gap:82px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+      gap: 82px;
+      display: flex;
+      flex-direction: column;
 }
 
 
 .li-left{
   font-family: "Inter";
-    display: flex;
-    max-width: 620px;
-    height: 179px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 50px;
+  height: 179px;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .title-comment-left{
   font-weight: 600px;
@@ -268,6 +279,8 @@
 .container-right-side{
   font-family: "Inter";
   width: 580px;
+  position: sticky;
+  top: 10rem;
   height: 443px;
 }
 
