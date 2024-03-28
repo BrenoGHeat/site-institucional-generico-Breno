@@ -1,0 +1,30 @@
+header{
+    position:fixed;
+    width:100%;
+  }
+  
+  
+  .header-div{
+    display: flex;
+    padding: 20px 236px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--color-blue-1);
+    background-color: var(--color-gray-1);
+  }
+  
+  .header-button{
+      height: 60px;
+      cursor: pointer;
+      padding: 20px 32px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--color-gray-7);
+      background-color: var(--color-gray-1);
+      color: var(--color-gray-7);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+    
+  }

@@ -1,0 +1,81 @@
+dialog {
+    padding: 0;
+    margin: auto;
+    border: 2px solid var(--color-blue-1);
+    width: 504px;
+    height: 416px;
+    flex-direction: column;
+}
+
+
+.modal__container{
+  background-color: var(--color-gray-2);
+  box-sizing: border-box;
+  padding: 25px;
+  gap:31px;
+  width: 504px;
+  height: 416px;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-gray-7);
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.modal-header{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.title-modal-header{
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 160%;
+  color: var(--color-gray-7);
+}
+
+.form-modal{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-modal{
+    width: 438px;
+    height: 58px;
+    padding-left: 10px;
+    background-color: var(--color-gray-1);
+    border: 1px transparent var(--color-gray-1);
+    color: var(--color-gray-4);
+}
+
+
+.button-modal{
+  width: 448px;
+  height: 60px;
+  background-color: var(--color-blue-1);
+  color: var(--color-gray-7);
+  border: 1px solid var(--color-blue-1);
+}
+
+.modal-paragraph{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.button-close-modal{
+  cursor:pointer; 
+}
+
+.button-modal:hover{
+  background-color: var(--color-blue-2);
+}

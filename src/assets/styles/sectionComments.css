@@ -1,0 +1,101 @@
+.section-comments{
+    font-family: "Inter";
+    width:100%;
+    background-color: var(--color-gray-2);
+  }
+  
+  .div-comments{
+    max-width: 1256px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      flex-direction: row-reverse;
+      margin: 0 auto;
+      gap: 30px;
+  }
+  
+  .title-paragraph-left{
+    min-width: 192px;
+    display: flex;
+    height: 86px;
+    gap: 8px;
+    font-family: "Inter";
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .comment-left-side{
+        gap: 82px;
+        display: flex;
+        flex-direction: column;
+  }
+  
+  
+  .li-left{
+    font-family: "Inter";
+    display: flex;
+    gap: 50px;
+    height: 179px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .title-comment-left{
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 160%;
+    color: var(--color-gray-6);
+  
+  }
+  
+  .paragraph-comment-left{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-gray-4);
+  }
+  
+  .paragraph-comment{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-gray-5);
+    
+  
+  }
+  
+  .container-right-side{
+    font-family: "Inter";
+    width: 580px;
+    position: sticky;
+    top: 10rem;
+    height: 443px;
+  }
+  
+  .comment-right-side{
+    width: 493px;
+    display: flex;
+    padding: 20px;
+    height: 443px;
+    background-color: var(--color-blue-1);
+    flex-direction: column;
+    gap: 35px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .title-right-side{
+    font-weight: 600;
+    font-size:40px;
+    line-height: 160%;
+    color: var(--color-gray-7);
+  }
+  
+  .paragraph-right-side{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-gray-7);
+  }

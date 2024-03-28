@@ -1,0 +1,14 @@
+footer{
+    background-color: var(--color-gray-1);
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagem-footer{
+    width: 178px;
+    height: 18px;
+    color: var(--color-gray-6);
+  }
+  

@@ -1,0 +1,51 @@
+.section-banner{
+    width:100%;
+    height:780px;
+    background-color: var(--color-gray-2);
+  }
+  
+  .container-banner{
+    height: 250px;
+    display: flex;
+    padding: 250px;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+  }
+  
+  .title-banner{
+    font-weight: 600;
+    font-size: clamp(2.813rem, 1.736rem + 1.683vw, 3.25rem);
+    line-height: 140%;
+    color:var(--color-gray-6);
+    font-family: "Inter";
+  }
+  
+  .span-banner{
+    color: var(--color-blue-2);
+    font-family: "Inter";
+  }
+  
+  .paragraph-banner{
+    width: 770px;
+    color: var(--color-gray-4);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "Inter";
+  }
+  
+  
+  .button-banner{
+    width: 142px;
+    padding:20px;
+    background-color: var(--color-blue-1);
+    color: var(--color-gray-7);
+    border: 1px transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Inter";
+  }
+  
