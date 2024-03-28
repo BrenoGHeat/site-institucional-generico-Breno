@@ -1,9 +1,11 @@
 .div-side-section{
   display: flex;
-  max-width: 1256px;
-  justify-content: space-between;
-  padding: 80px;
-  gap: 50px;
+    max-width: 1256px;
+    padding: 80px;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
   }
   
   
