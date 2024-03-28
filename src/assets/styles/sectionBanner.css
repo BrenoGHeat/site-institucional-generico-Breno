@@ -30,7 +30,7 @@
     width: 770px;
     color: var(--color-gray-4);
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(1rem, 0.823rem + 0.668vw, 1.25rem);
     line-height: 30px;
     text-align: center;
     font-family: "Inter";
@@ -49,3 +49,4 @@
     font-family: "Inter";
   }
   
+

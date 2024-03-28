@@ -1,18 +1,16 @@
 .div-side-section{
-    display: flex;
-    max-width: 1256px;
-    justify-content: space-between;
-    padding: 80px;
-    gap: 50px;
-    align-items: flex-start;
+  display: flex;
+  max-width: 1256px;
+  justify-content: space-between;
+  padding: 80px;
+  gap: 50px;
   }
   
   
   .faq-section{
     background-color: var(--color-gray-2);
     width: 100%;
-    display: flex;
-    justify-content: center;
+    
   }
   
   @media(max-width:768px) {
