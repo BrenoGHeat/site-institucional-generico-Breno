@@ -81,7 +81,6 @@
     background-color: var(--color-blue-1);
     flex-direction: column;
     gap: 35px;
-    align-content: center;
     justify-content: center;
   }
   
